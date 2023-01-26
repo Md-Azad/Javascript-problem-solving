@@ -37,3 +37,16 @@ console.log(full_line);
 var givenNumber = 119;
 var remainderIs = givenNumber%5;
 console.log(remainderIs);
+
+function getFirstValue(arr) {
+    //Write Your solution Here
+    return arr[0];
+};
+
+
+console.log(getFirstValue(["Saab", "Volvo", "BMW"])); // Saab
+console.log(getFirstValue([3, 5, 1])); // 3
+console.log(getFirstValue(['hello', 'world', 'welcome'])); // hello
+
+
+console.log("10"+10);
