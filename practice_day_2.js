@@ -64,10 +64,7 @@ for (i=0;i<names.length; i++){
 
 // 1. You are given three numbers 13, 79, and 45. Write a program that will print the
 // largest number using if-else.
-// 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
-// triangle is Isosceles or not using if-else.
 
-// Isosceles => two sides are equal
 
 var num1 = 311;
 var num2 =600;
@@ -77,10 +74,6 @@ if(num1>num2){
     if(num1>num3){
         console.log("maximum number is: ",num1);
     }
-    // else if(num2>num3){
-    //     console.log(num2)
-
-    // }
     else{
         console.log("hello",num3)
     }
@@ -91,4 +84,20 @@ else if(num2>num3){
 }
 else{
     console.log("maximum number is: ",num3);
+}
+
+// 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
+// triangle is Isosceles or not using if-else.
+
+// Isosceles => two sides are equal
+
+var firstSide = 9;
+var secondSide = 11;
+var thirdSide = 19;
+
+if (firstSide===secondSide || firstSide===thirdSide || secondSide==thirdSide){
+    console.log("this triangle is a Isosceles.");
+}
+else{
+    console.log("this triangle is not a Isocceles.");
 }
