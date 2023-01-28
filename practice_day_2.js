@@ -66,38 +66,56 @@ for (i=0;i<names.length; i++){
 // largest number using if-else.
 
 
-var num1 = 311;
-var num2 =600;
-var num3 = 745;
+// var num1 = 311;
+// var num2 =600;
+// var num3 = 745;
 
-if(num1>num2){
-    if(num1>num3){
-        console.log("maximum number is: ",num1);
-    }
-    else{
-        console.log("hello",num3)
-    }
+// if(num1>num2){
+//     if(num1>num3){
+//         console.log("maximum number is: ",num1);
+//     }
+//     else{
+//         console.log("hello",num3)
+//     }
     
-}
-else if(num2>num3){
-    console.log("maximum is: ",num2);
-}
-else{
-    console.log("maximum number is: ",num3);
-}
+// }
+// else if(num2>num3){
+//     console.log("maximum is: ",num2);
+// }
+// else{
+//     console.log("maximum number is: ",num3);
+// }
 
 // 2. You are given a triangle with the sides 9, 8, 9. Write a program to check whether a
 // triangle is Isosceles or not using if-else.
 
 // Isosceles => two sides are equal
 
-var firstSide = 9;
-var secondSide = 11;
-var thirdSide = 19;
+// var firstSide = 9;
+// var secondSide = 11;
+// var thirdSide = 19;
 
-if (firstSide===secondSide || firstSide===thirdSide || secondSide==thirdSide){
-    console.log("this triangle is a Isosceles.");
-}
-else{
-    console.log("this triangle is not a Isocceles.");
-}
+// if (firstSide===secondSide || firstSide===thirdSide || secondSide==thirdSide){
+//     console.log("this triangle is a Isosceles.");
+// }
+// else{
+//     console.log("this triangle is not a Isocceles.");
+// }
+// leet code 217
+const prices = [11,34,22,25,11];
+let test = prices[0];
+// console.log(test);
+// for (i=1;i<prices.length;i++){
+//     if(prices[i]===test[0]){
+//         test.push(prices[i]);
+//         console.log(test);
+//     }
+   
+// }
+// console.log(test.length);
+// if(test.length>1){
+//     console.log("appeared two time")
+// }
+// else{
+//     console.log("unique value");
+// }
