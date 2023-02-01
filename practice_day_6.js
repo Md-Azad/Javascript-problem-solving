@@ -92,8 +92,8 @@ function totalCost(ProductsPrice){
 }
 let costTotal =totalCost([{ name: "Dano Milk", price: 500 }, { name: "Taaza Tea", price: 200}, { name: 'Fresh Sugar', price:300} ]);
 let secondTotal = totalCost([{ name: "Samsung M33", price: 10000 },{ name: "Samsung Charger", price: 500},{ name: "Haveit Speakers", price:2500}]);
-console.log(costTotal);
-console.log(secondTotal);
+// console.log(costTotal);
+// console.log(secondTotal);
 
 
 
@@ -122,8 +122,8 @@ const deleteProperty =(arr)=>{
 
     const finalObj = deleteProperty([{fname:'John', age: 30},'fname']);
     const finalObj1 = deleteProperty([{fname:'John', age: 30},'sex']);
-    console.log(finalObj);
-    console.log(finalObj1)
+    // console.log(finalObj);
+    // console.log(finalObj1)
 
 
 // Learn how to create a temperature converter. Your task is to provide a value in Fahrenheit and then convert it into Celsius . Then round it up to two decimal places if you get fraction. And return the rounded value as output. 
@@ -144,4 +144,16 @@ function temperatureConverter(valNum) {
 
 }
 let finalCelsius = temperatureConverter(103);
-console.log(finalCelsius);
+// console.log(finalCelsius);
+
+// swap variable 
+
+let temp ;
+
+let var1 = 10;
+let var2 = 20;
+console.log(var1,var2);
+temp = var1;
+var1 = var2;
+var2 = temp;
+console.log(var1,var2);
