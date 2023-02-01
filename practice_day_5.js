@@ -34,6 +34,29 @@ function makeAvarage(numbers){
     return [lenthOfArray , avarage];
 }
 
-var lengthOfNumber = makeAvarage([1,2,4,3,5]);
-var avg =  makeAvarage([1,2,4,3,5]);
-console.log(makeAvarage([1,2,4,3,5]));
+// console.log(makeAvarage([1,2,4,3,5]));
+
+// problem 4 
+
+function odd_even(value){
+    if(value%2 ==0){
+        return "even";
+    }
+    else{
+        return "odd";
+    }
+}
+
+// console.log(odd_even(5));
+
+function odd_evens(values){
+    if(values%2 ==0){
+        console.log("even")
+    }
+    else{
+        console.log("odd")
+    }
+}
+
+odd_evens(11);
+
