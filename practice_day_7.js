@@ -59,7 +59,7 @@ function cheapestPhone(allPhones){
     for(let i = 0; i<allPhones.length; i++){
         const phone = allPhones[i];
        if(cheapestMobile.price>phone.price){
-            cheapestMobile= allPhones[i];
+            cheapestMobile= phone;
        }
     }
     return cheapestMobile;
