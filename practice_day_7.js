@@ -40,4 +40,29 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity){
 }
 
 const finalWoodrequired = woodCalculator(25,5,1);
-console.log(finalWoodrequired);
+console.log(`total wood required for your furniture are ${finalWoodrequired} cft. `);
+
+
+// find cheapest phone from an array 
+
+const phones = [
+    {name : "samsung", color: "black", camera: "12mp", storage: 32, price: 5},
+    {name : "Iphone", color: "Matt Blue", camera: "12mp", storage: 56, price: 6},
+    {name : "Xaomi", color: "silvar", camera: "48mp", storage: 32, price: 7},
+    {name : "Oppo", color: "Golden", camera: "32mp", storage: 32, price: 8}
+    
+]
+
+function cheapestPhone(allPhones){
+    let cheapestMobile = allPhones[0];
+    // console.log(cheapestMobile);
+    for(let i = 0; i<allPhones.length; i++){
+        const phone = allPhones[i];
+       if(cheapestMobile.price>phone.price){
+            cheapestMobile= allPhones[i];
+       }
+    }
+    return cheapestMobile;
+}  
+const selectedPhone = cheapestPhone(phones);
+console.log(selectedPhone);
